@@ -26,10 +26,11 @@ A React Native application with TypeScript that displays invoices with polling, 
 
 ## Run the app
 
+   ```bash
    npm start
    or
    yarn start
-
+   ```
 
 ## App uses these enviroment variables
 
@@ -39,6 +40,7 @@ A React Native application with TypeScript that displays invoices with polling, 
    API_PASSWORD=your_password
    USE_MOCK=true/false
    MOCK_DELAY_MS=300
+   ```
 
 ## Project structure
 
@@ -51,3 +53,4 @@ A React Native application with TypeScript that displays invoices with polling, 
       /types          # TypeScript types
       /utils          # Utility functions
       /screens        # Main app screens
+   ```
