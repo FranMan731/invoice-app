@@ -21,31 +21,33 @@ A React Native application with TypeScript that displays invoices with polling, 
    cd invoice-app
 
    npm install
-   # or
+   or
    yarn install
 
 ## Run the app
 
-npm start
-# or
-yarn start
+   npm start
+   or
+   yarn start
 
 
 ## App uses these enviroment variables
 
-API_URL=https://your-api-endpoint.com
-API_USERNAME=your_username
-API_PASSWORD=your_password
-USE_MOCK=true/false
-MOCK_DELAY_MS=300
+   ```bash
+   API_URL=https://your-api-endpoint.com
+   API_USERNAME=your_username
+   API_PASSWORD=your_password
+   USE_MOCK=true/false
+   MOCK_DELAY_MS=300
 
 ## Project structure
 
-/src
-  /components      # Reusable components
-  /hooks          # Custom hooks
-  /store          # Redux configuration
-  /services       # API services
-  /types          # TypeScript types
-  /utils          # Utility functions
-  /screens        # Main app screens
+   ```bash
+   /src
+      /components      # Reusable components
+      /hooks          # Custom hooks
+      /store          # Redux configuration
+      /services       # API services
+      /types          # TypeScript types
+      /utils          # Utility functions
+      /screens        # Main app screens
